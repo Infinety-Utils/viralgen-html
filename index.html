@@ -1,457 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/site.webmanifest" />
-    <link
-      rel="stylesheet"
-      href="css/font-awesome.css"
-    />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Viralgen</title>
-  </head>
-  <body class="home">
-    <div class="block w-full overflow-hidden">
-      <header class="fixed top-0 z-40 w-full">
-        <div class="py-5 pl-12 pr-14 tablet:pl-4 tablet:pr-4">
-          <div class="flex items-center justify-between">
-            <div class="logo-wrap">
-              <a href="javascript:;"
-                ><img
-                  src="images/viralgen_1.png"
-                  width="269"
-                  height="44"
-                  alt=""
-              /></a>
-            </div>
-            <div class="menu-wrap">
-              <div class="mr-12 lang-select mobile:mr-4">
-                <a href="javascript:;" class="active">ES</a>
-                <span class="mx-2 mobile:mx-1">|</span>
-                <a href="javascript:;">EN</a>
-              </div>
-              <div class="menus">
-                <span class="cursor-pointer hamburg">
-                  <img
-                    src="images/viralgen_2.png"
-                    width="30"
-                    height="30"
-                    alt=""
-                  /><span class="ml-3 uppercase text-grey_active">Menu</span>
-                </span>
-                <div class="overflow-y-auto menu-list">
-                  <div class="px-24 menu-list-inner desktop:px-8">
-                    <div class="absolute cursor-pointer close-menu top-7 right-7">
-                      <img src="images/cross.png" width="25" height="25" alt="" />
-                    </div>
-                    <div class="flex flex-wrap -mx-5">
-                      <div class="w-1/2 px-5 tablet:hidden">
-                        <div class="w-full max-w-2xl">
-                          <div class="mb-40 desktop_large:mb-14 logo-wrap">
-                            <a href="javascript:void(0);">
-                              <img src="images/viralgen_1.png" width="269" height="44" alt=""/>
-                            </a>
-                          </div>
-                          <h4 class="max-w-lg mb-36 desktop_large:mb-14">Your reliable partner for<br>
-                          AAV Manufacturing,<br>
-                          Development and Validation</h4>
-                          <div class="flex flex-wrap menu-contact-info">
-                            <div class="w-full">
-                              <div class="w-1/2 pr-3">
-                                <p><img src="images/location.png" alt=""><strong class="font-semibold text-primary">Parque Científico y Tecnológico de Gipuzkoa, </strong>
-                                Paseo Mikeletegi 83,
-                                20009 San Sebastián,
-                                Spain</p>
-                              </div>
-                            </div>
-                            <div class="w-1/2 pr-3">                            
-                              <p><img src="images/mail-ic.png" alt=""><strong class="font-semibold text-primary">Email:</strong>
-                              <a href="mailto:info@viralgenvc.co">info@viralgenvc.com</a></p>
-                              <p><img src="images/phone-ic.png" alt=""><strong class="font-semibold text-primary">Tel:</strong>
-                              <a href="tel:34943477733">+34 943 47 77 33</a></p>
-                            </div>
-                            <div class="w-1/2 pr-3">                          
-                              <p><img src="images/mail-ic.png" alt=""><strong class="font-semibold text-primary">Press contact:</strong>
-                              <a href="mailto:comunicacion@sg-branding.com">comunicacion@sg-branding.com</a></p>
-                              <div class="flex pl-10 menu-social">
-                                <a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
-                                <a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="px-5 w-1/ tablet:w-full">
-                        <ul>
-                          <li><a href="javacript:void(0);">Home</a></li>
-                          <li><a href="javacript:void(0);">What do we do</a>
-                            <ul>
-                              <li><a href="javacript:void(0);">Comprehensive service</a></li>
-                              <li><a href="javacript:void(0);">Experience</a></li>
-                              <li><a href="javacript:void(0);">Feasibility Video</a></li>
-                              <li><a href="javacript:void(0);">Scale and suites</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="javacript:void(0);">How do we do it</a></li>
-                          <li><a href="javacript:void(0);">Philanthropy</a></li>
-                          <li><a href="javacript:void(0);">Resource library</a></li>
-                          <li><a href="javacript:void(0);">Careers</a></li>
-                          <li><a href="javacript:void(0);">News and events</a></li>
-                          <li><a href="javacript:void(0);">Our facilities</a></li>
-                          <li><a href="javacript:void(0);">Contact</a></li>
-                        </ul>
-                      </div>
-                    </div> 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="overlay-menu"></div>
-      </header>
-      <main>
-        <section class="home-banner">
-          <div class="video-slider">
-              <div class="relative flex items-center h-screen video-wrap">
-                <div class="relative z-10 px-8 video-caption md:px-12 xl:px-28">
-                  <h1 class="uppercase " style="color:white;">Your new horizon</h1>
-                  <p style="color:white;">In aav gene therapy (<span style="text-transform:lowercase">c</span>gmp) manufacturing at scale</p>
-                  <div class="video-badges">
-                      <div class="experience">
-                        <strong><b>250</b>YEARS</strong><span>ACCREDITED EXPERIENCE IN AAV</span>
-                      </div>
-                      <div class="sites">
-                        <strong><b>7</b>GMP</strong><span>Production Suites</span>
-                      </div>
-                  </div>
-                </div>
-                <div class="absolute top-0 bottom-0 left-0 right-0 z-0 video-bg">
-                  <video autoplay nocontrols loop muted>
-                    <source src="video/cels.mp4" type="video/mp4">
-                    <source src="video/cels.ogg" type="video/ogg">
-                    <source src="video/cels.webm" type="video/webm">
-                  </video>
-                </div>
-              </div>
-              <div class="relative flex items-center h-screen video-wrap">
-                <div class="relative z-10 px-8 text-white video-caption md:px-12 xl:px-28">
-                  <h1 class="max-w-4xl text-white uppercase">Looking to manufacture gene therapy on a large scale?</h1>
-                  <p>Find out why we are your best partner</p>                  
-                </div>
-                <div class="absolute top-0 bottom-0 left-0 right-0 z-0 video-bg">
-                  <video nocontrols loop muted>
-                    <source src="video/Video-web-HOME-1.mp4" type="video/mp4">
-                    <source src="video/Video-web-HOME-1.ogg" type="video/ogg">
-                    <source src="video/Video-web-HOME-1.webm" type="video/webm">
-                  </video>
-                </div>
-              </div>
-          </div>
-          <div class="absolute transform -translate-x-1/2 down-arrow bottom-10 left-1/2 mobile:bottom-3">
-            <a href="#next-sec">
-              <img src="images/viralgen_img_11.png" width="22" height="32" alt="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="manifest" href="images/site.webmanifest" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <title>Viralgen</title>
+</head>
+
+<body class="home">
+  <div class="block w-full overflow-hidden">
+    <header class="fixed top-0 z-40 w-full">
+      <div class="py-5 pl-12 pr-14 tablet:pl-4 tablet:pr-4">
+        <div class="flex items-center justify-between">
+          <div class="logo-wrap">
+            <a href="javascript:;">
+              <img src="images/viralgen_1.png" width="269" height="44" alt="" />
             </a>
           </div>
-        </section>
-        <section id="next-sec" class="pt-8 pb-8 about-sec md:pt-12 md:pb-12 xl:pt-24 xl:pb-28 bg-section_bg">
-          <div class="container">
-              <div class="pb-8 text-center about-head mb:pb-4">
-                <h2 data-aos="fade-up" data-aos-duration="1000">Reasons why you will be at the forefront</h2>
+          <div class="menu-wrap">
+            <div class="mr-12 lang-select mobile:mr-4">
+              <a href="javascript:;" class="active">ES</a>
+              <span class="mx-2 mobile:mx-1">|</span>
+              <a href="javascript:;">EN</a>
+            </div>
+            <div class="menus">
+              <span class="cursor-pointer hamburg">
+                <img src="images/viralgen_2.png" width="30" height="30" alt="" />
+                <span class="ml-3 uppercase text-grey_active">Menu</span>
+              </span>
+              <div class="overflow-y-auto menu-list">
+                <div class="px-24 menu-list-inner desktop:px-8">
+                  <div class="absolute cursor-pointer close-menu top-7 right-7">
+                    <img src="images/cross.png" width="25" height="25" alt="" />
+                  </div>
+                  <div class="flex flex-wrap -mx-5">
+                    <div class="w-1/2 px-5 tablet:hidden">
+                      <div class="w-full max-w-2xl">
+                        <div class="mb-40 desktop_large:mb-14 logo-wrap">
+                          <a href="javascript:void(0);">
+                            <img src="images/viralgen_1.png" width="269" height="44" alt="" />
+                          </a>
+                        </div>
+                        <h4 class="max-w-lg mb-36 desktop_large:mb-14">
+                          Your reliable partner for <br>
+                          AAV Manufacturing, <br>
+                          Development and Validation
+                        </h4>
+                        <div class="flex flex-wrap menu-contact-info">
+                          <div class="w-full">
+                            <div class="w-1/2 pr-3">
+                              <p>
+                                <img src="images/location.png" alt="">
+                                <strong class="font-semibold text-primary">
+                                  Parque Científico y Tecnológico de Gipuzkoa, 
+                                </strong>
+                                Paseo Mikeletegi 83,
+                                20009 San Sebastián,
+                                Spain
+                              </p>
+                            </div>
+                          </div>
+                          <div class="w-1/2 pr-3">
+                            <p>
+                              <img src="images/mail-ic.png" alt="">
+                              <strong class="font-semibold text-primary">Email:</strong>
+                              <a href="mailto:info@viralgenvc.co">info@viralgenvc.com</a>
+                            </p>
+                            <p>
+                              <img src="images/phone-ic.png" alt="">
+                              <strong class="font-semibold text-primary">Tel:</strong>
+                              <a href="tel:34943477733">+34 943 47 77 33</a>
+                            </p>
+                          </div>
+                          <div class="w-1/2 pr-3">
+                            <p>
+                              <img src="images/mail-ic.png" alt="">
+                              <strong class="font-semibold text-primary">Press contact:</strong>
+                              <a href="mailto:comunicacion@sg-branding.com">comunicacion@sg-branding.com</a>
+                            </p>
+                            <div class="flex pl-10 menu-social">
+                              <a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
+                              <a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-5 w-1/ tablet:w-full">
+                      <ul>
+                        <li>
+                          <a href="javacript:void(0);">Home</a>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">What do we do</a>
+                          <ul>
+                            <li>
+                              <a href="javacript:void(0);">Comprehensive service</a>
+                            </li>
+                            <li>
+                              <a href="javacript:void(0);">Experience</a>
+                            </li>
+                            <li>
+                              <a href="javacript:void(0);">Feasibility Video</a>
+                            </li>
+                            <li>
+                              <a href="javacript:void(0);">Scale and suites</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">How do we do it</a>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">Philanthropy</a>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">Resource library</a>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">Careers</a>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">News and events</a>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">Our facilities</a>
+                        </li>
+                        <li>
+                          <a href="javacript:void(0);">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="about-slider-sec">
-                <div class="relative flex flex-wrap -mx-6 about-slider-wrap sidebar_container">
-                  <div id="sticky-sidebar-demo" class="relative w-5/12 mobile:w-full mobile:hidden">
-                    <div class="px-6 shaped-img svg-img tablet:w-full">  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlay-menu"></div>
+    </header>
+    <main>
+      <section class="home-banner">
+        <div class="video-slider">
+          <div class="relative flex items-center h-screen video-wrap">
+            <div class="relative z-10 px-8 video-caption md:px-12 xl:px-28">
+              <h1 class="uppercase " style="color:white;">Your new horizon</h1>
+              <p style="color:white;">
+                In aav gene therapy (<span style="text-transform:lowercase">c</span>gmp)
+                manufacturing at scale
+              </p>
+              <div class="video-badges">
+                <div class="experience">
+                  <strong>
+                    <b>250</b>
+                    YEARS
+                  </strong>
+                  <span>ACCREDITED EXPERIENCE IN AAV</span>
+                </div>
+                <div class="sites">
+                  <strong>Large scale GMP</strong><span>Production suit up to 2000l</span>
+                  <!-- <strong><b>7</b>GMP</strong><span>Production Suites</span> -->
+                </div>
+              </div>
+            </div>
+            <div class="absolute top-0 bottom-0 left-0 right-0 z-0 video-bg">
+              <video autoplay nocontrols loop muted>
+                <source src="video/cels.mp4" type="video/mp4">
+                <source src="video/cels.ogg" type="video/ogg">
+                <source src="video/cels.webm" type="video/webm">
+              </video>
+            </div>
+          </div>
+          <div class="relative flex items-center h-screen video-wrap">
+            <div class="relative z-10 px-8 text-white video-caption md:px-12 xl:px-28">
+              <h1 class="max-w-4xl text-white uppercase">Looking to manufacture gene therapy on a large scale?</h1>
+              <p>Find out why we are your best partner</p>
+            </div>
+            <div class="absolute top-0 bottom-0 left-0 right-0 z-0 video-bg">
+              <video nocontrols loop muted>
+                <source src="video/Video-web-HOME-1.mp4" type="video/mp4">
+                <source src="video/Video-web-HOME-1.ogg" type="video/ogg">
+                <source src="video/Video-web-HOME-1.webm" type="video/webm">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="absolute transform -translate-x-1/2 down-arrow bottom-10 left-1/2 mobile:bottom-3">
+          <a href="#next-sec">
+            <img src="images/viralgen_img_11.png" width="22" height="32" alt="">
+          </a>
+        </div>
+      </section>
+      <section id="next-sec" class="pt-8 pb-8 about-sec md:pt-12 md:pb-12 xl:pt-24 xl:pb-28 bg-section_bg">
+        <div class="container">
+          <div class="pb-8 text-center about-head mb:pb-4">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Reasons why you will be at the forefront</h2>
+          </div>
+          <div class="about-slider-sec">
+            <div class="relative flex flex-wrap -mx-6 about-slider-wrap sidebar_container">
+              <div id="sticky-sidebar-demo" class="relative w-5/12 mobile:w-full mobile:hidden">
+                <div class="px-6 shaped-img svg-img tablet:w-full">
+                  <div class="slide-num">
+                    <span>1</span>
+                  </div>
+                  <div class="absolute top-0 flex items-center h-screen slide-dots">
+                    <ul class="slick-dots">
+                      <li dataid="abt1" class="slick-active"><button>1</button></li>
+                      <li dataid="abt2"><button>2</button></li>
+                      <li dataid="abt3"><button>3</button></li>
+                    </ul>
+                  </div>
+                  <svg viewBox="0 0 200 200">
+                    <defs>
+                      <pattern id="gradient" width="200" height="200" patternUnits="userSpaceOnUse">
+                        <image id="abt1" class="active" href="images/verticle_2.png" height="200" width="200" />
+                        <image id="abt2" href="images/virtical_slider_1.png" height="200" width="200" />
+                        <image id="abt3" href="images/virtical_slider_2.png" height="200" width="200" />
+                      </pattern>
+                    </defs>
+                    <path d="" fill="url('#gradient')"></path>
+                  </svg>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-duration="1000" class="w-7/12 px-6 about-content mobile:w-full">
+                <div class="about-slider">
+                  <div dataid="abt1" class="about-content-box">
+                    <div class="shaped-img svg-img tablet:w-full md:hidden">
                       <div class="slide-num">
                         <span>1</span>
-                      </div>  
-                      <div class="absolute top-0 flex items-center h-screen slide-dots">
-                        <ul class="slick-dots">
-                          <li dataid="abt1" class="slick-active"><button>1</button></li>
-                          <li dataid="abt2"><button>2</button></li>
-                          <li dataid="abt3"><button>3</button></li>
-                        </ul>
-                      </div>                      
+                      </div>
                       <svg viewBox="0 0 200 200">
                         <defs>
-                          <pattern id="gradient" width="200" height="200" patternUnits="userSpaceOnUse">
-                              <image id="abt1" class="active" href="images/verticle_2.png" height="200" width="200"/>
-                              <image id="abt2" href="images/virtical_slider_1.png" height="200" width="200"/>
-                              <image id="abt3" href="images/virtical_slider_2.png" height="200" width="200"/>
+                          <pattern id="gradient01" width="200" height="200" patternUnits="userSpaceOnUse">
+                            <image id="abt1" class="active" href="images/verticle_2.png" height="200" width="200" />
                           </pattern>
                         </defs>
-                        <path d="" fill="url('#gradient')"></path>
+                        <path d="" fill="url('#gradient01')"></path>
                       </svg>
                     </div>
+                    <div class="abt-box">
+                      <h4>You will benefit from our extensive expertise in AAV and its regulations throughout the whole
+                        process of development and production</h4>
+                      <p>A world-class highly-motivated <strong>professional team</strong> will be at your disposal.
+                        They will guide you throughout the whole process, from development to large-scale production and
+                        commercialization.</p>
+                      <p>You will have <strong>greater internal control</strong> over time and cost.</p>
+                      <p>Viralgen allows for the <strong>rapid incorporation</strong> of new programs, which will
+                        accelerate your process.</p>
+                    </div>
                   </div>
-                  <div data-aos="fade-up" data-aos-duration="1000" class="w-7/12 px-6 about-content mobile:w-full">
-                    <div class="about-slider">
-                      <div dataid="abt1" class="about-content-box">
-                        <div class="shaped-img svg-img tablet:w-full md:hidden">  
-                          <div class="slide-num">
-                            <span>1</span>
-                          </div>                        
-                          <svg viewBox="0 0 200 200">
-                            <defs>
-                              <pattern id="gradient01" width="200" height="200" patternUnits="userSpaceOnUse">
-                                  <image id="abt1" class="active" href="images/verticle_2.png" height="200" width="200"/>
-                              </pattern>
-                            </defs>
-                            <path d="" fill="url('#gradient01')"></path>
-                          </svg>
-                        </div>
-                        <div class="abt-box">
-                          <h4>You will benefit from our extensive expertise in AAV and its regulations throughout the whole process of development and production</h4>
-                          <p>A world-class highly-motivated <strong>professional team</strong> will be at your disposal. They will guide you throughout the whole process, from development to large-scale production and commercialization.</p>
-                          <p>You will have <strong>greater internal control</strong> over time and cost.</p>
-                          <p>Viralgen allows for the <strong>rapid incorporation</strong> of new programs, which will accelerate your process.</p>
-                        </div>
+                  <div dataid="abt2" class="about-content-box">
+                    <div class="px-6 shaped-img svg-img tablet:w-full md:hidden">
+                      <div class="slide-num">
+                        <span>2</span>
                       </div>
-                      <div dataid="abt2" class="about-content-box">
-                        <div class="px-6 shaped-img svg-img tablet:w-full md:hidden">  
-                          <div class="slide-num">
-                            <span>2</span>
-                          </div>                        
-                          <svg viewBox="0 0 200 200">
-                            <defs>
-                              <pattern id="gradient1" width="200" height="200" patternUnits="userSpaceOnUse">
-                                  <image href="images/verticle_2.png" height="200" width="200"/>
-                              </pattern>
-                            </defs>
-                            <path d="" fill="url('#gradient1')"></path>
-                          </svg>
-                        </div>
-                        <div class="abt-box">
-                          <h4>Optimization will increase by more than 70%</h4>
-                          <p>Viralgen has a proprietary <strong>mammalian cell-based</strong> production platform, which results in an optimization rate of <strong>more than 70%</strong> compared to other cell lines.</p>
-                          <p>Viralgen has the license for AskBio’s <strong>Pro10™ cell line</strong>, which is derived from HEK293 cells and produces high yields. It has also licensed a <strong>new one-of-a-kind large-scale rAAV manufacturing process</strong>.</p>
-                          <p>It is an <strong>industrial-scale serum-free suspension culture system.</strong> The manufacturing process is based on the <strong>triple transfection</strong> of the <strong>Pro10™</strong> cell line.</p>
-                          <p>SV40 sequences are not present in <strong>Pro10™</strong> cell line.</p>
-                        </div>
+                      <svg viewBox="0 0 200 200">
+                        <defs>
+                          <pattern id="gradient1" width="200" height="200" patternUnits="userSpaceOnUse">
+                            <image href="images/verticle_2.png" height="200" width="200" />
+                          </pattern>
+                        </defs>
+                        <path d="" fill="url('#gradient1')"></path>
+                      </svg>
+                    </div>
+                    <div class="abt-box">
+                      <h4>Optimization will increase by more than 70%</h4>
+                      <p>Viralgen has a proprietary <strong>mammalian cell-based</strong> production platform, which
+                        results in an optimization rate of <strong>more than 70%</strong> compared to other cell lines.
+                      </p>
+                      <p>Viralgen has the license for AskBio’s <strong>Pro10™ cell line</strong>, which is derived from
+                        HEK293 cells and produces high yields. It has also licensed a <strong>new one-of-a-kind
+                          large-scale rAAV manufacturing process</strong>.</p>
+                      <p>It is an <strong>industrial-scale serum-free suspension culture system.</strong> The
+                        manufacturing process is based on the <strong>triple transfection</strong> of the
+                        <strong>Pro10™</strong> cell line.</p>
+                      <p>SV40 sequences are not present in <strong>Pro10™</strong> cell line.</p>
+                    </div>
+                  </div>
+                  <div dataid="abt3" class="about-content-box">
+                    <div class="px-6 shaped-img svg-img tablet:w-full md:hidden">
+                      <div class="slide-num">
+                        <span>3</span>
                       </div>
-                      <div dataid="abt3" class="about-content-box">
-                        <div class="px-6 shaped-img svg-img tablet:w-full md:hidden">  
-                          <div class="slide-num">
-                            <span>3</span>
-                          </div>                        
-                          <svg viewBox="0 0 200 200">
-                            <defs>
-                              <pattern id="gradient2" width="200" height="200" patternUnits="userSpaceOnUse">
-                                    <image href="images/virtical_slider_1.png" height="200" width="200"/>
-                              </pattern>
-                            </defs>
-                            <path d="" fill="url('#gradient2')"></path>
-                          </svg>
-                        </div>
-                        <div class="abt-box">
-                          <h4>You can count on cutting-edge large-scale cGMP capacity</h4>
-                          <p>You can manufacture <strong>four different products at the same time in four independent state-of-the-art cGMP manufacturing rooms</strong></p>
-                          <ul>
-                            <li><strong>50L </strong> scale to supply Toxicology/biodistribution studies.</li>
-                            <li><strong>4 independent state-of-the-art cGMP production suites</strong>, providing the capability to continuously manufacture 4 different products simultaneously.</li>
-                            <li>Viralgen uses <strong>250L</strong> and <strong>500L</strong> single-use stirred-tank bioreactors for culture of suspension cells in clinical manufacturing.</li>
-                            <li><strong>500-2000L</strong> bioreactors in its commercial facility.</li>
-                            <li>In-house QC lab for critical release assays.</li>
-                          </ul>
-                        </div>
-                      </div>
+                      <svg viewBox="0 0 200 200">
+                        <defs>
+                          <pattern id="gradient2" width="200" height="200" patternUnits="userSpaceOnUse">
+                            <image href="images/virtical_slider_1.png" height="200" width="200" />
+                          </pattern>
+                        </defs>
+                        <path d="" fill="url('#gradient2')"></path>
+                      </svg>
                     </div>
-                  </div>                  
-                </div>
-              </div>
-          </div>
-        </section>        
-        <section class="py-8 motivation md:py-14 lg:py-24">
-          <div class="container">
-            <div class="motivation-head">
-              <p data-aos="fade-up" data-aos-duration="1000" class="text-primary">Corporate Social Responsibility</p>
-              <h3 data-aos="fade-up" data-aos-duration="1000" class="cmn-line-head">What Moves Us</h3>
-            </div>
-            <div class="flex flex-wrap -mx-5 motive-bx-wrap tablet:-mx-2">
-              <div data-aos="fade-up" data-aos-duration="1000" class="w-1/3 px-5 mobile:w-full mobile:mt-0 mobile:pt-0 tablet:px-2 mobile:mb-6">
-                  <a href="javascript:;" class="motive-img">
-                      <img src="images/viralgen_img_8.png" width="400" height="550" alt="">
-                      <div class="motive-head">
-                        <h5>Curing people with genetic diseases</h5>
-                    </div>
-                  </a>
-              </div>
-              <div data-aos="fade-up" data-aos-duration="1000" class="w-1/3 px-5 mobile:w-full tablet:px-2 mobile:mb-6">
-                  <a href="javascript:;" class="motive-img">
-                      <img src="images/viralgen_img_9.png" width="400" height="550" alt="">
-                      <div class="motive-head">
-                        <h5>Real and effective social integration</h5>
-                    </div>
-                  </a>
-                  
-              </div>
-              <div data-aos="fade-up" data-aos-duration="1000" class="w-1/3 px-5 mobile:w-full tablet:px-2 mobile:mb-6">
-                  <a href="javascript:;"class="motive-img">
-                      <img src="images/viralgen_img_10.png" width="400" height="550" alt="">
-                      <div class="motive-head">
-                        <h5>Talent development and quality of life</h5>
-                    </div>
-                  </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="py-8 pb-8 noticia-sec md:py-14 md:pb-6 lg:py-24 lg:pb-12 bg-section_bg">
-          <div class="container">
-            <div class="relative flex items-center -mx-4 mobile:flex-wrap">
-              <div class="w-1/3 px-4 notice-head mobile:w-full mobile:mb-7">
-                <h3 data-aos="fade-up" data-aos-duration="1000" class="cmn-line-head">News</h3>
-                <p data-aos="fade-up" data-aos-duration="1000">This is where you can keep up to date on the different activities and news of our organization.</p>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                  <a href="javascript:;" class="btn btn-primary">See all</a>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1000" class="arrow-wrap"></div>
-              </div>
-              <div class="w-2/3 px-4 mobile:w-full">
-                <div class="notice-slider-wrap">
-                  <div class="notice-slider">
-                    <div data-aos="fade-up" data-aos-duration="1000" class="notice-card">
-                        <a href="" class="img-wrap"><img src="images/viralgen_img_6.png" alt="" width="410" height="250" ></a>
-                        <div class="card-content">
-                          <span class="block uppercase text-15p">November 15,  2021</span>
-                          <h6><a href="javascript:;">Sheila Mikhail of AskBio Named Entrepreneur Of The Year® 2021 National Overall Award Winner as EY Celebrates Program's 35th Anniversary</a></h6>
-                          <a href="javascript:;" class="btn btn-secondary">Read more</a>
-                          
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" class="notice-card">
-                        <a href="" class="img-wrap"><img src="images/viralgen_img_5.png" alt="" width="410" height="250" ></a>
-                        <div class="card-content">
-                          <span class="block uppercase text-15p">October 22, 2021</span>
-                          <h6><a href="javascript:;">Our human resources team recruiting talent</a></h6>
-                          <p>During the last few days, our human resources team has actively participated in different...</p>
-                          <a href="javascript:;" class="btn btn-secondary">Read more</a>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" class="notice-card">
-                        <a href="" class="img-wrap"><img src="images/viralgen_img_4.png" alt="" width="410" height="250" ></a>
-                        <div class="card-content">
-                          <span class="block uppercase text-15p">October 22, 2021</span>
-                          <h6><a href="javascript:;">Fundraising concerts to take place in Galicia for the Fundación Columbus, with the support of Viralgen</a></h6>
-                          <a href="javascript:;" class="btn btn-secondary">Read more</a>
-                        </div>
+                    <div class="abt-box">
+                      <h4>You can count on cutting-edge large-scale cGMP capacity</h4>
+                      <p>You can manufacture <strong>four different products at the same time in four independent
+                          state-of-the-art cGMP manufacturing rooms</strong></p>
+                      <ul>
+                        <li><strong>50L </strong> scale to supply Toxicology/biodistribution studies.</li>
+                        <li><strong>4 independent state-of-the-art cGMP production suites</strong>, providing the
+                          capability to continuously manufacture 4 different products simultaneously.</li>
+                        <li>Viralgen uses <strong>250L</strong> and <strong>500L</strong> single-use stirred-tank
+                          bioreactors for culture of suspension cells in clinical manufacturing.</li>
+                        <li><strong>500-2000L</strong> bioreactors in its commercial facility.</li>
+                        <li>In-house QC lab for critical release assays.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section class="text-white contact-sec">
-          <div class="container">
-            <div class="flex bg-center bg-no-repeat bg-cover w-100 form-wrapper" style="background-image: url(images/viralgen_img_3.png);">
-              <div class="w-8/12 px-1 mx-auto tablet:w-full md:px-5 lg:px-0" style="text-align: center;">
-                <div class="form-head">
-                  <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-2">Let’s talk</h3>
-                  <p data-aos="fade-up" data-aos-duration="1000">Do you want to know more about how we can help you?</p>
-                </div><br />
-                <input type="submit" class="btn btn-secondary" value="Contact Us">
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer>
+        </div>
+      </section>
+      <section class="py-8 motivation md:py-14 lg:py-24">
         <div class="container">
-          <div class="flex items-end justify-between top-footer">
-            <div data-aos="fade-up" data-aos-duration="1000" class="foot-logo-wrap">
-              <a href="javascript:;">
-                <img src="images/viralgen-footer.png"
-                  width="365"
-                  height="60"
-                  alt=""
-                />
+          <div class="motivation-head">
+            <p data-aos="fade-up" data-aos-duration="1000" class="text-primary">Corporate Social Responsibility</p>
+            <h3 data-aos="fade-up" data-aos-duration="1000" class="cmn-line-head">What Moves Us</h3>
+          </div>
+          <div class="flex flex-wrap -mx-5 motive-bx-wrap tablet:-mx-2">
+            <div data-aos="fade-up" data-aos-duration="1000"
+              class="w-1/3 px-5 mobile:w-full mobile:mt-0 mobile:pt-0 tablet:px-2 mobile:mb-6">
+              <a href="javascript:;" class="motive-img">
+                <img src="images/viralgen_img_8.png" width="400" height="550" alt="">
+                <div class="motive-head">
+                  <h5>Curing people with genetic diseases</h5>
+                </div>
               </a>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="social-footer_wrap">
-                <a href="javascript:;" target="blank"><i class="fa fa-linkedin"></i></a>
-                <a href="javascript:;" target="blank"><i class="fa fa-twitter"></i></a>
+            <div data-aos="fade-up" data-aos-duration="1000" class="w-1/3 px-5 mobile:w-full tablet:px-2 mobile:mb-6">
+              <a href="javascript:;" class="motive-img">
+                <img src="images/viralgen_img_9.png" width="400" height="550" alt="">
+                <div class="motive-head">
+                  <h5>Real and effective social integration</h5>
+                </div>
+              </a>
+
             </div>
-          </div>
-          <div class="flex justify-between bottom-footer mobile:flex-wrap">
-            <div data-aos="fade-up" data-aos-duration="1000" class="w-2/5 mobile:w-full">
-                <p>Parque Científico y Tecnológico de Gipuzkoa <br>
-                  Paseo Mikeletegi, 83 <br>
-                  20009 San Sebastián, Spain</p>
-                <p>Tel:  <a href="tel:+34 943 47 77 33">+34 943 47 77 33</a></br>
-                  <a href="mailTo:info@viralgenvc.com">info@viralgenvc.com</a></p>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="flex justify-center w-1/4 mobile:w-full">
-              <ul class="footer-menu">
-                <li><a href="javacript:;">Home</a></li>
-                <li><a href="javacript:;">What do we do</a></li>
-                <li><a href="javacript:;">How do we do it</a></li>
-                <li><a href="javacript:;">Philanthropy</a></li>
-                <li><a href="javacript:;">Resource Library</a></li>
-              </ul>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="flex justify-end w-1/4 mobile:w-full">
-              <ul class="footer-menu">
-                <li><a href="javacript:;">Careers</a></li>
-                <li><a href="javacript:;">News and events</a></li>
-                <li><a href="javacript:;">Our facilities</a></li>
-                <li><a href="javacript:;">Contact</a></li>
-              </ul>
+            <div data-aos="fade-up" data-aos-duration="1000" class="w-1/3 px-5 mobile:w-full tablet:px-2 mobile:mb-6">
+              <a href="javascript:;" class="motive-img">
+                <img src="images/viralgen_img_10.png" width="400" height="550" alt="">
+                <div class="motive-head">
+                  <h5>Talent development and quality of life</h5>
+                </div>
+              </a>
             </div>
           </div>
         </div>
-        <div class="footer-socket pt-7 mobile:pt-4">
-          <div class="container">
-              <p>© VIRALGEN 2022. All rights reserved.</p>
+      </section>
+      <section class="py-8 pb-8 noticia-sec md:py-14 md:pb-6 lg:py-24 lg:pb-12 bg-section_bg">
+        <div class="container">
+          <div class="relative flex items-center -mx-4 mobile:flex-wrap">
+            <div class="w-1/3 px-4 notice-head mobile:w-full mobile:mb-7">
+              <h3 data-aos="fade-up" data-aos-duration="1000" class="cmn-line-head">News</h3>
+              <p data-aos="fade-up" data-aos-duration="1000">This is where you can keep up to date on the different
+                activities and news of our organization.</p>
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <a href="javascript:;" class="btn btn-primary">See all</a>
+              </div>
+              <div data-aos="fade-up" data-aos-duration="1000" class="arrow-wrap"></div>
+            </div>
+            <div class="w-2/3 px-4 mobile:w-full">
+              <div class="notice-slider-wrap">
+                <div class="notice-slider">
+                  <div data-aos="fade-up" data-aos-duration="1000" class="notice-card">
+                    <a href="" class="img-wrap"><img src="images/viralgen_img_6.png" alt="" width="410"
+                        height="250"></a>
+                    <div class="card-content">
+                      <span class="block uppercase text-15p">November 15, 2021</span>
+                      <h6><a href="javascript:;">Sheila Mikhail of AskBio Named Entrepreneur Of The Year® 2021 National
+                          Overall Award Winner as EY Celebrates Program's 35th Anniversary</a></h6>
+                      <a href="javascript:;" class="btn btn-secondary">Read more</a>
+
+                    </div>
+                  </div>
+                  <div data-aos="fade-up" data-aos-duration="1000" class="notice-card">
+                    <a href="" class="img-wrap"><img src="images/viralgen_img_5.png" alt="" width="410"
+                        height="250"></a>
+                    <div class="card-content">
+                      <span class="block uppercase text-15p">October 22, 2021</span>
+                      <h6><a href="javascript:;">Our human resources team recruiting talent</a></h6>
+                      <p>During the last few days, our human resources team has actively participated in different...
+                      </p>
+                      <a href="javascript:;" class="btn btn-secondary">Read more</a>
+                    </div>
+                  </div>
+                  <div data-aos="fade-up" data-aos-duration="1000" class="notice-card">
+                    <a href="" class="img-wrap"><img src="images/viralgen_img_4.png" alt="" width="410"
+                        height="250"></a>
+                    <div class="card-content">
+                      <span class="block uppercase text-15p">October 22, 2021</span>
+                      <h6><a href="javascript:;">Fundraising concerts to take place in Galicia for the Fundación
+                          Columbus, with the support of Viralgen</a></h6>
+                      <a href="javascript:;" class="btn btn-secondary">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/simplex-noise.min.js"></script>
-    <script src="js/spline.js"></script>
-    <script src="js/shape_move.js"></script>
-    <script src="js/sticky-sidebar.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/custom.js"></script>
-    <script>
-      $(function(){
-        var a = new StickySidebar('#sticky-sidebar-demo', {
-			  topSpacing: 0,
-			  containerSelector: '.sidebar_container',
-		    });
-        $('.shaped-img .slick-dots li').on('click',function(){
-          let thisId = $(this).attr('dataid');
-          console.log(thisId);
-          $('html, body').animate({
-            scrollTop: $('.about-content-box[dataid = '+ thisId + ']').offset().top,
-          }, 800);
-        });
-      })
-      
-    </script>
-  </body>
+      </section>
+      <section class="text-white contact-sec">
+        <div class="container">
+          <div class="flex bg-center bg-no-repeat bg-cover w-100 form-wrapper"
+            style="background-image: url(images/viralgen_img_3.png);">
+            <div class="w-8/12 px-1 mx-auto tablet:w-full md:px-5 lg:px-0" style="text-align: center;">
+              <div class="form-head">
+                <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-2">Let’s talk</h3>
+                <p data-aos="fade-up" data-aos-duration="1000">Do you want to know more about how we can help you?</p>
+              </div><br />
+              <input type="submit" class="btn btn-secondary" value="Contact Us">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="flex items-end justify-between top-footer">
+          <div data-aos="fade-up" data-aos-duration="1000" class="foot-logo-wrap">
+            <a href="javascript:;">
+              <img src="images/viralgen-footer.png" width="365" height="60" alt="" />
+            </a>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" class="social-footer_wrap">
+            <a href="javascript:;" target="blank"><i class="fa fa-linkedin"></i></a>
+            <a href="javascript:;" target="blank"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="flex justify-between bottom-footer mobile:flex-wrap">
+          <div data-aos="fade-up" data-aos-duration="1000" class="w-2/5 mobile:w-full">
+            <p>Parque Científico y Tecnológico de Gipuzkoa <br>
+              Paseo Mikeletegi, 83 <br>
+              20009 San Sebastián, Spain</p>
+            <p>Tel: <a href="tel:+34 943 47 77 33">+34 943 47 77 33</a></br>
+              <a href="mailTo:info@viralgenvc.com">info@viralgenvc.com</a>
+            </p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" class="flex justify-center w-1/4 mobile:w-full">
+            <ul class="footer-menu">
+              <li><a href="javacript:;">Home</a></li>
+              <li><a href="javacript:;">What do we do</a></li>
+              <li><a href="javacript:;">How do we do it</a></li>
+              <li><a href="javacript:;">Philanthropy</a></li>
+              <li><a href="javacript:;">Resource Library</a></li>
+            </ul>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" class="flex justify-end w-1/4 mobile:w-full">
+            <ul class="footer-menu">
+              <li><a href="javacript:;">Careers</a></li>
+              <li><a href="javacript:;">News and events</a></li>
+              <li><a href="javacript:;">Our facilities</a></li>
+              <li><a href="javacript:;">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-socket pt-7 mobile:pt-4">
+        <div class="container">
+          <p>© VIRALGEN 2022. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/simplex-noise.min.js"></script>
+  <script src="js/spline.js"></script>
+  <script src="js/shape_move.js"></script>
+  <script src="js/sticky-sidebar.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $(function () {
+      var a = new StickySidebar('#sticky-sidebar-demo', {
+        topSpacing: 0,
+        containerSelector: '.sidebar_container',
+      });
+      $('.shaped-img .slick-dots li').on('click', function () {
+        let thisId = $(this).attr('dataid');
+        console.log(thisId);
+        $('html, body').animate({
+          scrollTop: $('.about-content-box[dataid = ' + thisId + ']').offset().top,
+        }, 800);
+      });
+    })
+
+  </script>
+</body>
+
 </html>

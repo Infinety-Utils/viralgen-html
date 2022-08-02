@@ -21,9 +21,9 @@ $(function () {
     $('body').toggleClass("no-scroll");
   });
   $(".close-menu").on("click", function () {
-    $(this).parent(".menu-list").removeClass("open-menu");
+    $(".menu-list").removeClass("open-menu");
     $(".overlay-menu").removeClass("open-shadow");
-    $('body').toggleClass("no-scroll");
+    $('body').removeClass("no-scroll");
   });
   $(".overlay-menu").on("click", function () {
     $(".menu-list").removeClass("open-menu");
