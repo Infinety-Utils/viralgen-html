@@ -1,8 +1,14 @@
 $(function () {
   $(window).scroll(function () {
-    $(window).scrollTop() < 50
-      ? $("body").removeClass("sticky-header")
-      : $("body").addClass("sticky-header");
+    if ($(window).scrollTop() < 50) {
+      $("body").removeClass("sticky-header")
+      $(".menu-img-1").addClass('hidden')
+      $(".menu-img-2").removeClass('hidden')
+    } else {
+      $(".menu-img-2").addClass('hidden')
+      $(".menu-img-1").removeClass('hidden')
+      $("body").addClass("sticky-header")
+    }
   });
   if(is_touch_enabled()){
     $('body').addClass("touch_screens");

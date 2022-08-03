@@ -1,6 +1,10 @@
-/* .sticky-header header .py-5 {
+.sticky-header header .py-5 {
   padding-bottom: 1.5rem;
 }
 body {
   padding-top: 0;
-} */
+}
+
+header > div {
+  background-color: #6b7280;
+}
