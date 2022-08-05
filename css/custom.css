@@ -6,5 +6,69 @@ body {
 }
 
 header > div {
-  background-color: #6b7280;
+  background-color: #fff;
+}
+
+.menu-custom {
+  display: flex;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.menu-custom > li {
+  position: relative;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+/* header .menu-wrap {
+  margin-top: 0;
+} */
+
+.submenu-custom {
+  list-style: none;
+  padding-top: 0;
+  /* padding-top: .3rem; */
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  visibility: hidden;
+  transition: all ease-in-out .3s;
+  border: 1px solid #3bd1f6;
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.submenu-custom li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: .3rem;
+}
+
+.menu-custom li:hover .submenu-custom {
+  visibility: visible;
+}
+
+
+.submenu-size {
+  width: 155%;
+}
+.submenu-size-2 {
+  width: 165%;
+}
+
+.submenu-custom li:hover{
+  background-color: #6fdfdf;
+  color: #fff;
+}
+
+.submenu-custom li a {
+  color: inherit;
+}
+
+.submenu-custom li:last-child {
+  margin-bottom: 0;
 }

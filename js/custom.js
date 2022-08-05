@@ -284,6 +284,7 @@ $(function () {
       $(this).siblings('.btn').hide();
     }
   })
+
 });
 
 AOS.init(); 
